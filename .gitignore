@@ -1,0 +1,5 @@
+# Allowlist: ignore everything, then track only files named below.
+# Credentials, transcripts and history must never be tracked.
+*
+!.gitignore
+!settings.json
