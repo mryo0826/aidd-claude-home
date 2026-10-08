@@ -15,6 +15,7 @@
       "effortLevel": "high"
     }
   },
+  "disableClaudeAiConnectors": true,
   "autoUpdatesChannel": "latest",
   "theme": "dark"
 }
