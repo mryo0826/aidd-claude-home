@@ -17,6 +17,7 @@
   },
   "disableClaudeAiConnectors": true,
   "subagentPromptCacheTtl": "1h",
+  "idleCompaction": false,
   "autoUpdatesChannel": "latest",
   "theme": "dark"
 }
