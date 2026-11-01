@@ -27,6 +27,10 @@
 - 丸ごと自分の `~/.claude` に置かないで下さい。`settings.json` には、著者の手元のパス（作業日誌のリポジトリ）が入っています。要る行だけを持って行って下さい。
 - 誰でも使える形の個人メモリのテンプレートは、ガイドの側の [`user-memory-template.md`](https://github.com/mryo0826/aidd-practice-guide/blob/main/user-memory-template.md) にあります。このリポジトリは、著者自身の実物です。
 
+## 版
+
+版は git のタグ（`vX.Y.Z`）と GitHub の Release で表します。番号はファイルには書きません。設定の1行や言い回しの直しは PATCH、ファイルや節を足す時は MINOR、ファイルを消す・名前を変える等、使っている人の手元が壊れる変更は MAJOR で上げます。
+
 ## ライセンス
 
 [MIT No Attribution（MIT-0）](LICENSE)
