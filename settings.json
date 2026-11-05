@@ -18,6 +18,7 @@
   "disableClaudeAiConnectors": true,
   "subagentPromptCacheTtl": "1h",
   "idleCompaction": false,
+  "cleanupPeriodDays": 60,
   "autoUpdatesChannel": "latest",
   "theme": "dark"
 }
