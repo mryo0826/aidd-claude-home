@@ -1,24 +1,26 @@
 {
+  "cleanupPeriodDays": 60,
+  "syncClaudeAiSkills": false,
+  "syncClaudeAiPlugins": false,
   "permissions": {
-    "defaultMode": "default",
     "allow": [
       "Read(//d/git/aidd-worklog/**)"
     ],
+    "defaultMode": "default",
     "additionalDirectories": [
       "d:\\git\\aidd-worklog"
     ]
   },
   "model": "opus",
+  "disableClaudeAiConnectors": true,
+  "subagentPromptCacheTtl": "1h",
   "effortLevel": "high",
   "modelSettings": {
     "claude-opus-5-5": {
       "effortLevel": "high"
     }
   },
-  "disableClaudeAiConnectors": true,
-  "subagentPromptCacheTtl": "1h",
-  "idleCompaction": false,
-  "cleanupPeriodDays": 60,
   "autoUpdatesChannel": "latest",
-  "theme": "dark"
+  "theme": "dark",
+  "idleCompaction": false
 }
